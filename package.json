@@ -4,7 +4,8 @@
   "description": "My first package",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,9 @@
   "homepage": "https://github.com/ikachinskaya/Node.JS#readme",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0"
   }
 }
