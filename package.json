@@ -1,0 +1,25 @@
+{
+  "name": "node_intro",
+  "version": "0.0.1",
+  "description": "My first package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikachinskaya/Node.JS.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Inna Kachinskaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikachinskaya/Node.JS/issues"
+  },
+  "homepage": "https://github.com/ikachinskaya/Node.JS#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
