@@ -10,10 +10,7 @@ class Component {
 
 const data = 1; /* мешать друг другу не будут*/
 
-/*
-экспорт класса
-в объекте exports создаем свойство Component со значением Component(класс)
-*/
-console.log(exports);
-exports.Component = Component;
-console.log(exports);
+/* экспорт класса */
+module.exports.Component = Component;
+module.exports.data = data;
+console.log(module.exports);

@@ -9,8 +9,6 @@ class MyMath {
     args.reduce((acc, currentValue) => acc / currentValue);
 }
 
-const data = 2; /* мешать друг другу не будут*/
-
-console.log(exports);
-exports.MyMath = MyMath;
-console.log(exports);
+//лучше экспортировать так
+module.exports = MyMath;
+console.log(module.exports);
